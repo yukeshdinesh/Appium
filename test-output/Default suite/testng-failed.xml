@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AppiumRS.Appium.Basics">
+      <class name="ecommapp.GeneralStoreTCs">
         <methods>
-          <include name="test2"/>
+          <include name="ecommerce_TC2"/>
         </methods>
-      </class> <!-- AppiumRS.Appium.Basics -->
+      </class> <!-- ecommapp.GeneralStoreTCs -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -15,7 +15,7 @@ public class Basics {
 	@Test
 	public void test1() throws MalformedURLException {
 
-		AndroidDriver<AndroidElement> driver = Base.driverinitialize();
+		AndroidDriver<AndroidElement> driver = HybridBase.driverinitialize("emulator","ApiDemos-debug.apk");
 
 		//Using Xpath
 		driver.findElementByXPath("//android.widget.TextView[@text='Preference']").click();
